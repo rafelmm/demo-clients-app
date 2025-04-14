@@ -1,0 +1,67 @@
+# Archivos de compilación y distribución
+/target/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Archivos de log y volcados de errores
+*.log
+hs_err_pid*
+
+# Archivos de configuración del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Archivos de configuración de Eclipse
+.settings/
+.project
+.classpath
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.factorypath
+
+
+# Archivos generados por herramientas de construcción
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+
+# Archivos temporales y de respaldo
+*.sw?
+*~
+.#*
+*#
+*.tmp
+*.bak
+*.sublime-*
+/scratch
+
+# Archivos de configuración específicos de Spring Tool Suite (STS)
+.apt_generated/
+.springBeans/
+.sts4-cache/
+
+# Archivos de configuración de Git
+.git-hooks/

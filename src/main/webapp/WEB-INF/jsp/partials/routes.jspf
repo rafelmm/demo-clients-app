@@ -1,0 +1,7 @@
+<spring:eval expression="@routes.LIST" var="listRoute" />
+<spring:eval expression="@routes.CREATE" var="createRoute" />
+<spring:eval expression="@routes.UPDATE" var="updateRoute" />
+<spring:eval expression="@routes.DELETE" var="deleteRoute" />
+
+<spring:eval expression="@routes.CLIENTS" var="clientsRoute" />
+<spring:eval expression="@routes.PRODUCTS" var="productsRoute" />
